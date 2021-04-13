@@ -1,0 +1,23 @@
+For PubSub
+
+Create components using cloud shell
+https://cloud.google.com/pubsub/docs/quickstart-cli
+
+Create components using Web console
+Search PubSub from search bar and then there are options to create all components
+
+Create components using client SDK
+Note: In order to run pubsub app, you need to create topic and subscription of that topic in cloud before you run the programme.
+
+1) Download and install client SDK
+https://cloud.google.com/java/docs/setup
+https://cloud.google.com/sdk/docs/install
+
+2) Download Eclipse for Google cloud application
+https://www.eclipse.org/ide/ 
+
+3) Download plugins in eclipse
+https://cloud.google.com/eclipse/docs/libraries
+
+4) Add GOOGLE_APPLICATION_CREDENTIALS var in order to run the programme. 
+https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789801156/app01/app01lvl1sec96/configuring-eclipse-to-use-the-google-cloud-platform
