@@ -1,0 +1,6 @@
+Execute below command to build fatty jar - jar which will include all requied external jars in project jar
+This command should be executed from project folder. Ex- D:\Apachebeam\pipeline-options-with-cmd
+mvn clean compile assembly:single
+
+Execute below command from target folder of project. Ex D:\Apachebeam\pipeline-options-with-cmd\target
+java -cp pipeline-options-with-cmd-1.0-SNAPSHOT-jar-with-dependencies.jar com.beam.learning.App --inputFile="D:\\Apachebeam\\pipeline-options-with-cmd\\file.csv" --outputFile="D:\\Apachebeam\\pipeline-options-with-cmd\\output" --extn=".csv"
