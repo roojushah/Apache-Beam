@@ -15,6 +15,6 @@ public class App1 {
         PCollection<String> collection = pipeline.apply(TextIO.read().from("D:\\Apachebeam\\localsystem-to-pcollection\\file.csv"));
         collection.apply(TextIO.write().to("D:\\Apachebeam\\localsystem-to-pcollection\\output.csv").withNumShards(1).withSuffix(".csv"));
         pipeline.run();
-        System.out.println("Ends :: Pcollection demo from Local file system!");
+        System.out.println("Ends :: Pcollection demo from Local system!");
     }
 }
